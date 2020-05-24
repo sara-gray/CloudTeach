@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CloudTeach</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header-inner">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">CloudTeach</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a class="active-link" href="signup.html">Sign Up</a></li>
+            <li><a href="#login-model" class="btn pink modal-trigger">Login</a></li>
+            <li>
+              <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+
+          <ul id="mobile-nav" class="side-nav">
+            <h4 class="pink-text center">CloudTeach</h4>
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li>
+              <a href="index.html"><i class="grey-text text-darken-4 fa fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="solutions.html"><i class="grey-text text-darken-4 fa fa-cog"></i>
+                Solutions</a>
+            </li>
+            <li>
+              <a href="signup.html"><i class="grey-text text-darken-4 fa fa-users"></i> Sign
+                Up</a>
+            </li>
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li><a href="#login-model" class="btn pink modal-trigger">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <div class="showcase container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+          <h5>Welcome to CloudTeach</h5>
+          <h1>Create An Account</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section: Sign Up -->
+  <section class="section section-signup">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h4>Get A Free Account</h4>
+          <p>All accounts are free, just follow the simple sign up instructions.</p>
+          <h4>Download The Documentation</h4>
+          <p>The documentation takes you trough each feature and contains many examples.</p>
+          <h4>Import Your Classlists</h4>
+          <p>Already have your classlists in a CSV or Excel file? Easily import into your data.</p>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel grey lighten-4 grey-text text-darken-4 z-depth-0">
+            <form>
+              <div class="input-field">
+                <input type="text" id="first_name">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="last_name">
+                <label for="last_name">Last Name</label>
+              </div>
+              <div class="input-field">
+                <input type="email" id="email">
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field">
+                <input type="password" id="password">
+                <label for="password">Password</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="school">
+                <label for="school">School/College</label>
+              </div>
+              <div class="input-field">
+                <select id="role">
+                  <option value="" disabled selected>Select Role</option>
+                  <option value="teacher">Teacher</option>
+                  <option value="hod">Head of Department</option>
+                  <option value="slt">Senior Leader</option>
+                  <option value="head">Head</option>
+                  <option value="other">Other</option>
+                </select>
+                <label for="role">Role</label>
+              </div>
+              <input type="submit" value="Sign Up" class="btn btn-large pink btn-extend">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer pink ">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">We are a non-profit company here to help teachers.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+            <li><a class="grey-text text-lighten-3" href="solutions.html">Solutions</a></li>
+            <li><a class="grey-text text-lighten-3" href="signup.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright white grey-text darken-4">
+      <div class="container">
+        CloudTeach &copy; 2020
+        <a class="right grey-text darken-4" href="#">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Login Modal -->
+  <div id="login-model" class="modal">
+    <div class="modal-content">
+      <h4>Account Login</h4>
+      <p>Login to access your account dashboard</p>
+      <form>
+        <div class="input-field">
+          <input type="email" id="email" class="validate">
+          <label for="email" data-error="Please enter a valid email address" data-success="right">Email</label>
+        </div>
+        <div class="input-field" class="validate">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close btn grey"><i class="fa fa-sync"></i> Reset Password</a>
+      <a href="#!" class="modal-action modal-close btn pink"><i class="fa fa-lock"></i> Login</a>
+    </div>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.button-collapse').sideNav();
+
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true,
+      });
+
+      $('.modal').modal();
+
+      $('select').material_select();
+    });
+  </script>
+</body>
+
+</html>

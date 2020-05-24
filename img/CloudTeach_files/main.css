@@ -16,21 +16,8 @@
   color: white;
 }
 
-.main-header-inner {
-  background: url(../img/w-qjCHPZbeXCQ-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 350px;
-  color: white;
-}
-
 .main-header .showcase {
   padding-top: 100px;
-}
-
-
-.main-header-inner .showcase {
-  padding-top: 50px;
 }
 
 .active-link {
@@ -64,13 +51,4 @@
 
 .carousel-item p {
   font-size: 20px !important;
-}
-
-.tabs .indicator {
-  background-color: #e91e63 !important;
-}
-
-.btn-extend {
-  display: block;
-  width: 100%;
 }
