@@ -1,3 +1,13 @@
+.primary-overlay {
+  background: rgba(151, 81, 176, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 .main-header {
   background: url(../img/w-qjCHPZbeXCQ-unsplash.jpg);
   background-size: cover;
@@ -13,4 +23,14 @@
 .active-link {
   color: #e91e63;
   font-weight: bold;
+}
+
+.section-teachers {
+  position: relative;
+  background: url(../img/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: solid 5px #e91e63;
+  border-bottom: solid 5px #e91e63;
+  min-height: 180px;
 }
