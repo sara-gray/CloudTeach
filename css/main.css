@@ -1,0 +1,16 @@
+.main-header {
+  background: url(../img/w-qjCHPZbeXCQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: white;
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.active-link {
+  color: #e91e63;
+  font-weight: bold;
+}

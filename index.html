@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloudTeach</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="main-header">
+      <nav class="transparent">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">CloudTeach</a>
+            <a href="#" data-activates="mobile-nav" class="button-collapse"
+              ><i class="material-icons">menu</i></a
+            >
+
+            <ul class="right hide-on-med-and-down">
+              <li><a class="active-link" href="index.html">Home</a></li>
+              <li><a href="solutions.html">Solutions</a></li>
+              <li><a href="signup.html">Sign Up</a></li>
+              <li><a href="#" class="btn pink">Login</a></li>
+              <li>
+                <a href="https://facebook.com"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://instagram.com"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+
+            <ul id="mobile-nav" class="side-nav">
+              <h4 class="pink-text text-darken-4 center">CloudTeach</h4>
+              <li>
+                <div class="divider"></div>
+              </li>
+              <li>
+                <a href="index.html"
+                  ><i class="grey-text text-darken-4 fa fa-home"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="solutions.html"
+                  ><i class="grey-text text-darken-4 fa fa-cog"></i>
+                  Solutions</a
+                >
+              </li>
+              <li>
+                <a href="signup.html"
+                  ><i class="grey-text text-darken-4 fa fa-users"></i> Sign
+                  Up</a
+                >
+              </li>
+              <li>
+                <div class="divider"></div>
+              </li>
+              <li><a href="#" class="btn pink">Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Showcase -->
+      <div class="showcase container">
+        <div class="row">
+          <div class="col s12 m10 offset-m1 center">
+            <h5>Welcome to CloudTeach</h5>
+            <h1>Education For The Future</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              debitis perspiciatis ducimus perferendis obcaecati enim.
+            </p>
+            <br /><br />
+            <a href="solutions.html" class="btn btn-large white pink-text"
+              >Learn More</a
+            >
+            <a href="solutions.html" class="btn btn-large pink white-text"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Import jQuery before materialize.js-->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.button-collapse').sideNav();
+      });
+    </script>
+  </body>
+</html>
